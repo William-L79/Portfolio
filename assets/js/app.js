@@ -33,7 +33,7 @@ console.log(tabLogos);
         if(tabCrea.includes(tabLogos[i])) category = tabCategoriesNoms[2];
 
         $('.skills__content').append(
-            '<div class="filtr-item skills__item" data-category="'+category+'" data-sort="value">'+
+            '<div class="skills__item" data-category="'+category+'" data-sort="value">'+
                 '<i class="skills__logo devicon-'+tabLogos[i]+'-plain"></i>'+
                 '<p class="skills__texte"> '+tabLogos[i]+' </p>'+
               '</div>'
